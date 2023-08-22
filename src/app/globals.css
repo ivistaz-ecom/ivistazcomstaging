@@ -302,7 +302,9 @@ height: 100vh !important;
 }
 
 .blurb-ripple-out-wrap {
-	text-align: center;
+	margin: 0;
+	padding: 1em 0 1em;
+	
 }
 
 
