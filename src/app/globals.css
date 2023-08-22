@@ -302,11 +302,7 @@ height: 100vh !important;
 	transition: transform ease-out 0.1s, background 0.2s;
 }
 
-.blurb-ripple-out-wrap {
-	text-align: center;
-	margin: 0 auto;
-	padding: 1em 0 1em;
-}
+
 
 
 .blurb-ripple-out:after {
