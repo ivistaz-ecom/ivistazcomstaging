@@ -292,7 +292,6 @@ height: 100vh !important;
 
 .blurb-ripple-out {
 	cursor: pointer;
-	border-radius: 0%;
 	text-align: center;
 	position: relative;
 	z-index: 1;
