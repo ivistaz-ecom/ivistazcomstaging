@@ -1,8 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
 body{
 margin:0px;
+font-family: 'Poppins', sans-serif;
 }
 .iv-bg{
 background:#ED2225;  
+}
+.iv-btn{
+padding: 14px !important;
+background: #fff !important;
+color:#ED2225 !important;
+border: 0px !important;
+width: 160px;  
+}
+.iv-card{
+  background:#ED2225 !important;
+  padding: 16px;
+  border-radius: 19px; 
+}
+.iv-card .card-body{
+padding-top: 19px;
+
+}
+.img-r{
+border-radius: 8px !important;  
+}
+.iv-card .card-body .card-title{
+  color:#fff;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  }
+.iv-card .card-body .card-text{
+    color:#fff;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 12px;
+    height:100px;
+    }
+.iv-btn:hover{
+  padding: 14px !important;
+  background: #ED2225 !important;
+  color:#fff !important;
+  border: 1px solid #ffff !important;
+  width: 160px;  
+  }
+.iv-link{
+color:#fff;
+text-decoration: none;  
+}
+.iv-primary{
+color:#fff;
+border: 1px solid #fff; 
+text-decoration: none;
+padding: 12px;
+border-radius: 8px; 
+}
+.bg-black{
+background: #000;  
+}
+.bg-white{
+  background: #fff;  
+  }
+.fs-21 {
+    font-size: 4.5rem!important;
+    font-family: 'Poppins', sans-serif;
+}
+.fs-2 {
+  font-family: 'Poppins', sans-serif;  
+}
+.para-text{
+font-weight: 300; 
+font-size:20px;
+font-family: 'Poppins', sans-serif; 
+}
+.fs-3{
+  font-family: 'Poppins', sans-serif; 
+}
+.r-20{
+border-radius: 25px;  
+}
+.banner{
+border-radius:25px;
+height:350px;  
+}
+.w-80{
+width:85% !important;  
+}
+.pl-8{
+padding-left: 3% !important;
 }
 .icon-scroll:hover{
   cursor: pointer;
@@ -53,9 +140,11 @@ background:#ED2225;
 }
 .fs-70 {
   font-size: 100px;
+  font-family: 'Poppins', sans-serif;
 }
 .fs-60 {
   font-size: 60px;
+  font-family: 'Poppins', sans-serif;
 }
 .h-100vh{
 height: 100vh !important; 
@@ -79,6 +168,7 @@ height: 100vh !important;
 
 .h-btn span {
   font-size: 21px;
+  font-family: 'Poppins', sans-serif;
   color: black;
   font-weight: 500;
 }
@@ -250,6 +340,7 @@ height: 100vh !important;
 
 .animate {
 	font-size:100px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .animate span {
@@ -302,7 +393,6 @@ height: 100vh !important;
 }
 
 .blurb-ripple-out-wrap {
-
   margin: 0px auto;
   padding: 8px 8px;
 	
@@ -334,6 +424,7 @@ height: 100vh !important;
 .blurb-ripple-out:before {
 	speak: none;
 	font-size: 48px;
+  font-family: 'Poppins', sans-serif;
 	line-height: 90px;
 	font-style: normal;
 	font-weight: normal;
@@ -369,3 +460,5 @@ height: 100vh !important;
 		opacity: 0;
 	}
 }
+
+

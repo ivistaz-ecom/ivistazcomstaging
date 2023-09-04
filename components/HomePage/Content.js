@@ -1,19 +1,26 @@
 'use client'
-import React from 'react'
+import React, { useEffect, useState } from "react";
 import { Container } from 'react-bootstrap'
 import Image from 'next/image'
-import {Row, Col} from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
+import { Howl, Howler } from 'howler';
 
-function HomePage() {
-    function handleScroll() {
-        window.scroll({
-          top: document.body.offsetHeight,
-          left: 0, 
-          behavior: 'smooth',
-        });
-      }
 
-    return (
+
+
+const HomePage = () => {
+
+
+function handleScroll() {
+    window.scroll({
+      top: document.body.offsetHeight,
+      left: 0, 
+      behavior: 'smooth',
+    });
+  
+}
+
+return (
 <>
 <Container className="iv-bg  h-100vh" fluid>
 <Row className="d-flex flex-column align-items-center" style={{height:500+'px'}}>

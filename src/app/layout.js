@@ -13,7 +13,11 @@ export default function RootLayout({ children }) {
   return (
 <html lang="en">
 <body className={inter.className}>
-
+        
+<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MotionPathPlugin.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
 {children}
 
       
