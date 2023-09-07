@@ -3,10 +3,6 @@ import React, { useEffect, useState } from "react";
 import { Container } from 'react-bootstrap'
 import Image from 'next/image'
 import { Row, Col } from 'react-bootstrap'
-import { Howl, Howler } from 'howler';
-
-
-
 
 const HomePage = () => {
 
