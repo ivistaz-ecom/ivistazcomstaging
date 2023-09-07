@@ -7,7 +7,6 @@ import Link from 'next/link'
 import { useState } from 'react';
 import {usePathname} from 'next/navigation';
 
-
 function Header1() {
   const pathname = usePathname()
   const [show, setShow] = useState(false);
