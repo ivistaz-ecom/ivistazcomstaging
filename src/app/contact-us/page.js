@@ -1,15 +1,11 @@
 "use client"
 import React from 'react';
-import { usePathname } from 'next/navigation'
 import { Container } from 'react-bootstrap'
 import Image from 'next/image'
 import { Row, Col, Button } from 'react-bootstrap'
-import { FaArrowRight } from "react-icons/fa";
-import Link from 'next/link'
 import Header1 from '../../../components/HeaderBlack';
 
-function page({ service }) {
-  const router = usePathname()
+function page() {
   return (
     <>
 <Container className="bg-black pb-5" fluid>

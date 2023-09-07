@@ -21,18 +21,18 @@ function performance() {
                       <p className="mastery-text">“Behind every brilliant performance there were countless hours of practice and preparation.” – Eric Butterworth</p>
                       <p className="mastery-text">We work in collaboration with our clients to design digital journeys that create experiences which people will never forget. And for that, we intend to deliver performance beyond expectations.</p>
                       <Container className="mt-3 pb-5 margin-left">
-                          <Link href="/industries" className="btn btn-13">Industries</Link>
+                          <Link href="/industries" className="btn btn-13 b-width">Industries</Link>
                           <Link href="/case-studies" className="btn btn-14 mx-5">Case Studies</Link>
                           </Container>        
                         </Container>
-                          <Container className="mt-3 pb-5 margin-left">
+                          <Container className="margin-left">
                           <Link href="/arts" className="perform-text">ARTS</Link>
                               <Link href="/mastery" className="perform-text mx-5">MASTERY</Link>
                               
                           </Container>
             </Col>
             <Col className="arts">
-                    <img src="/images/performance.svg" className="performance-img"/>
+              <Image src="/images/performance.svg" className="performance-img" width={700} height={490} />
                       </Col>
               </Row>
               </Container> 
