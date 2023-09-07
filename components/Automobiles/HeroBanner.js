@@ -29,7 +29,7 @@ return (
 <p className="text-white para-text"> To increase your qualified leads and sales conversion ratios for you directly and for your dealers.                    
                 </p>
 <Container className="text-center w-80">
-<Button className="btn-14">Contact us</Button></Container>
+<Link className="btn-14" href="/contact-us">Contact us</Link></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
 <p className="fs-2 text-white">Here’s how we have helped brands win over the dynamic and highly competitive industry:</p>

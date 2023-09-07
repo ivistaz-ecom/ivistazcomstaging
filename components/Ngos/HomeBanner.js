@@ -28,7 +28,7 @@ function HeroBanner() {
                 <p className="text-white para-text">With captivating content and SEO, generate traction for your website and offerings.</p>                
                 <p className="text-white para-text">Using email marketing, generate Marketing Qualified Leads (MQLs).</p>
 <Container className="text-center w-80">
-<Button className="btn-14">Contact us</Button></Container>
+<Link className="btn-14" href="/contact-us">Contact us</Link></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
 <p className="fs-2 text-white">Explore how we have partnered with organizations to create meaningful change, amplify their reach, and drive impactful outcomes:</p>

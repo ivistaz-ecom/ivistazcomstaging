@@ -28,7 +28,7 @@ function HeroBanner() {
                 <p className="text-white para-text">Develop compelling and personalized online experiences that will strengthen customers’ loyalty to your brand, thus creating a more curated online experience.</p>                
                 <p className="text-white para-text">Curate keywords that will ensure a lower cost of acquisition.</p>
 <Container className="text-center w-80">
-<Button className="btn-14">Contact us</Button></Container>
+<Link className="btn-14" href="/contact-us">Contact us</Link></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
 <p className="fs-2 text-white">Here’s how we have helped appliance brands to win in the e-commerce channel:</p>

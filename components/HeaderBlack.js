@@ -32,8 +32,8 @@ className= { (pathname === '/arts' || pathname === '/arts/services' || pathname 
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
 <div class="offcanvas-body">
-                <Container className="text-center">
-                <Link class="navbar-brand" href="/">
+<Container className="text-center">
+<Link class="navbar-brand" href="/">
 <Image src="/images/ivista_logo.svg" width="300" height={100} /></Link>
 </Container>
 <ul class="navbar-nav text-center flex-grow-1 pe-3">

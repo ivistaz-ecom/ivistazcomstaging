@@ -30,7 +30,7 @@ function HeroBanner() {
                 <p className="text-white para-text">Create a robust performance-based e-commerce model with a monthly/quarterly goal of improving and sustaining your revenues.</p>                
                 <p className="text-white para-text">Create a robust e-commerce channel that will not only improve revenues on your e-store and marketplaces but also drive customers to your offline stores.</p>
 <Container className="text-center w-80">
-<Button className="btn-14">Contact us</Button></Container>
+<Link className="btn-14" href="/contact-us">Contact us</Link></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
 <p className="fs-2 text-white">Here’s how we helped beauty and wellness brands secure a winning edge:</p>

@@ -32,7 +32,7 @@ return (
 <p className="text-white para-text">Generate Marketing Qualified Leads (MQLs) with email marketing, SEM and SMM.</p>
 <p className="text-white para-text">Enhance the web experience for your customers with engaging UX/UI developed on a robust tech platform.</p>
 <Container className="text-center w-80">
-<Button className="btn-14">Contact us</Button></Container>
+<Link className="btn-14" href="/contact-us">Contact us</Link></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
 <p className="fs-2 text-white">Here are some instances where our expertise and cutting-edge solutions have propelled Tech/IT companies to success:</p>

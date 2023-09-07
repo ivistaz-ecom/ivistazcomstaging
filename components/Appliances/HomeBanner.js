@@ -27,7 +27,7 @@ return (
                 <p className="text-white para-text">The size of customers doing research online and buying offline is rapidly shrinking. More and more buyers are now comfortable buying even large appliances online. Undoubtedly, you would be looking to capitalize on this opportunity.</p>
                 <p className="text-white para-text"> Our carefully tailored digital marketing strategies will help to increase online sales both on your brand e-store as well as on marketplaces.</p>                
 <Container className="text-center w-80">
-<Button className="btn-14">Contact us</Button></Container>
+<Link className="btn-14" href="/contact-us">Contact us</Link></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
 <p className="fs-2 text-white">Here’s how we have helped appliance brands to win in the e-commerce channel:</p>

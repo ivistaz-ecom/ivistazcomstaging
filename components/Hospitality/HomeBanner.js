@@ -28,7 +28,7 @@ return (
 <Container className="iv-bg w-80 banner p-5">
 <p className="text-white para-text">We can leverage our experience to grow and sustain online room revenues for your properties and in turn, help to increase your room occupancy, RevPAR (Revenue Per Available Room) and ADR (Average Daily Rate). We are also deeply aware that the customers of luxury hospitality brands are highly discerning, and our focus will also be to enhance their overall digital experience with engaging UX/UI and content.</p>                
 <Container className="text-center w-80">
-<Button className="btn-14">Contact us</Button></Container>
+<Link className="btn-14" href="/contact-us">Contact us</Link></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
 <p className="fs-2 text-white">Here are some numbers that will interest you.</p>
