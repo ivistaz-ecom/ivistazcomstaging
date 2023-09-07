@@ -40,7 +40,7 @@ function page() {
                       <Col className="">
                       <p className="mastery-text">“Mastery demands all of a person.” – Albert Einstein</p>
                         <p className="mastery-text">Years of being in the digital marketing landscape and working with over 300+ clients has given us insights on how to master every aspect of this dynamic industry. Want to know how we do it?</p>
-                        <Container className="mt-3 pb-5 margin-left">
+                        <Container className="mt-3 pb-5 margin-left d-flex">
                           <Link href="/mastery/about-us" className="btn btn-13 b-width">About Us</Link>
                           <Link href="/mastery/solutions" className="btn btn-14 mx-5">Solutions</Link>
                           </Container>              
