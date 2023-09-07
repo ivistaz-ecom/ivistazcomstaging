@@ -6,12 +6,12 @@ import { FaArrowRight } from "react-icons/fa";
   
 function HeroBanner() {
 
-return (
+    return (
 <>
 <Container className="bg-white banner w-80" >
 <Row className="d-flex align-items-center">
 <Col lg={7} className="pl-8">        
-<h1 className="fs-21 fw-bold">AUTOMOBILES</h1>
+<h1 className="fs-21 fw-bold">BEAUTY & WELLNESS</h1>
 </Col>              
 <Col lg={5}>
 <Image src="/images/automobiles.svg" width={400} height={400} />
@@ -19,20 +19,21 @@ return (
 </Row>
 </Container>
 <Container className="pt-4 w-80 pb-4 pt-4" >
-<p className="text-white para-text">According to the Ministry of Heavy Industries, Government of India, the automotive industry is likely to see significant transformations at a global level in the next ten years. Among the notable changes will be the shift of growth in demand for automobiles from developed nations to developing nations (mainly BRICS).</p>
-<p className="text-white para-text">India aims to double its auto industry size to Rs. 15 lakh crores by end of the year 2024 (Source: Ministry of Heavy Industries).</p>
+                <p className="text-white para-text">The beauty and wellness market has been growing at a rapid pace in India. The market in India was valued at INR 901.07 Bn in 2018 and is forecasted to reach INR 2,463.49 Bn by the year 2024.</p>
+                <p className="text-white para-text">What is notable is that the beauty and wellness market today straddles the affluent as well as the middle class, the female as well as the male sexes, the synthetic brands as well as the organic brands. The sheer number of new entrants, especially in the ‘natural’, ‘vegan’ ‘safe’ and ‘sustainable’ categories is testimony to the exponential growth of the industry.</p>
+
 
 </Container>            
-<Container className="iv-bg w-80 banner p-5">
-<p className="fw-bold text-white fs-3">Your focus would be on strengthening your market share in India by growing your sales and dealer network. iVista can support you in this journey and help:</p>                
-<p className="text-white para-text">Your brand to increase online enquiries, bookings and sales conversion ratios.</p>
-<p className="text-white para-text"> To increase your qualified leads and sales conversion ratios for you directly and for your dealers.                    
-                </p>
+            <Container className="iv-bg w-80 banner p-5">
+            <p className="fw-bold text-white fs-3">To help your brand to stand out in a highly crowded market, we will:</p>                
+                <p className="text-white para-text">Develop and implement robust search strategies to drive your primary target audience to your brand store and marketplaces.</p>
+                <p className="text-white para-text">Create a robust performance-based e-commerce model with a monthly/quarterly goal of improving and sustaining your revenues.</p>                
+                <p className="text-white para-text">Create a robust e-commerce channel that will not only improve revenues on your e-store and marketplaces but also drive customers to your offline stores.</p>
 <Container className="text-center w-80">
 <Button className="btn-14">Contact us</Button></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
-<p className="fs-2 text-white">Here’s how we have helped brands win over the dynamic and highly competitive industry:</p>
+<p className="fs-2 text-white">Here’s how we helped beauty and wellness brands secure a winning edge:</p>
 </Container>
 <Container className="w-80">
 <Row>

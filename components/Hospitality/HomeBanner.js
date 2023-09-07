@@ -3,6 +3,8 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaArrowRight } from "react-icons/fa";
+
+
   
 function HeroBanner() {
 
@@ -11,7 +13,7 @@ return (
 <Container className="bg-white banner w-80" >
 <Row className="d-flex align-items-center">
 <Col lg={7} className="pl-8">        
-<h1 className="fs-21 fw-bold">AUTOMOBILES</h1>
+<h1 className="fs-21 fw-bold">HOSPITALITY</h1>
 </Col>              
 <Col lg={5}>
 <Image src="/images/automobiles.svg" width={400} height={400} />
@@ -19,20 +21,17 @@ return (
 </Row>
 </Container>
 <Container className="pt-4 w-80 pb-4 pt-4" >
-<p className="text-white para-text">According to the Ministry of Heavy Industries, Government of India, the automotive industry is likely to see significant transformations at a global level in the next ten years. Among the notable changes will be the shift of growth in demand for automobiles from developed nations to developing nations (mainly BRICS).</p>
-<p className="text-white para-text">India aims to double its auto industry size to Rs. 15 lakh crores by end of the year 2024 (Source: Ministry of Heavy Industries).</p>
+<p className="text-white para-text">In the last 12 years, iVistaz has built a deep digital hospitality practice.</p>
+
 
 </Container>            
 <Container className="iv-bg w-80 banner p-5">
-<p className="fw-bold text-white fs-3">Your focus would be on strengthening your market share in India by growing your sales and dealer network. iVista can support you in this journey and help:</p>                
-<p className="text-white para-text">Your brand to increase online enquiries, bookings and sales conversion ratios.</p>
-<p className="text-white para-text"> To increase your qualified leads and sales conversion ratios for you directly and for your dealers.                    
-                </p>
+<p className="text-white para-text">We can leverage our experience to grow and sustain online room revenues for your properties and in turn, help to increase your room occupancy, RevPAR (Revenue Per Available Room) and ADR (Average Daily Rate). We are also deeply aware that the customers of luxury hospitality brands are highly discerning, and our focus will also be to enhance their overall digital experience with engaging UX/UI and content.</p>                
 <Container className="text-center w-80">
 <Button className="btn-14">Contact us</Button></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
-<p className="fs-2 text-white">Here’s how we have helped brands win over the dynamic and highly competitive industry:</p>
+<p className="fs-2 text-white">Here are some numbers that will interest you.</p>
 </Container>
 <Container className="w-80">
 <Row>

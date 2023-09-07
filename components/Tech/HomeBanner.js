@@ -1,17 +1,20 @@
 import React, { useEffect,  useRef } from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 import Image from 'next/image'
-import Link from 'next/link'
 import { FaArrowRight } from "react-icons/fa";
-  
+import Link from 'next/link'  
 function HeroBanner() {
 
 return (
 <>
+
+
+
+
 <Container className="bg-white banner w-80" >
 <Row className="d-flex align-items-center">
 <Col lg={7} className="pl-8">        
-<h1 className="fs-21 fw-bold">AUTOMOBILES</h1>
+<h1 className="fs-21 fw-bold">TECH/IT</h1>
 </Col>              
 <Col lg={5}>
 <Image src="/images/automobiles.svg" width={400} height={400} />
@@ -19,20 +22,20 @@ return (
 </Row>
 </Container>
 <Container className="pt-4 w-80 pb-4 pt-4" >
-<p className="text-white para-text">According to the Ministry of Heavy Industries, Government of India, the automotive industry is likely to see significant transformations at a global level in the next ten years. Among the notable changes will be the shift of growth in demand for automobiles from developed nations to developing nations (mainly BRICS).</p>
-<p className="text-white para-text">India aims to double its auto industry size to Rs. 15 lakh crores by end of the year 2024 (Source: Ministry of Heavy Industries).</p>
+<p className="text-white para-text">The evolving digital trends and technologies are causing a tectonic shift in digital marketing. In this scenario, iVistaz will help you keep pace and have a firm grasp on the evolving digital ecosystem to give you measurable ROI for your digital spending. Our services include:</p>
+
 
 </Container>            
 <Container className="iv-bg w-80 banner p-5">
-<p className="fw-bold text-white fs-3">Your focus would be on strengthening your market share in India by growing your sales and dealer network. iVista can support you in this journey and help:</p>                
-<p className="text-white para-text">Your brand to increase online enquiries, bookings and sales conversion ratios.</p>
-<p className="text-white para-text"> To increase your qualified leads and sales conversion ratios for you directly and for your dealers.                    
-                </p>
+<p className="text-white para-text">Assess the current or redefine positioning, messaging and narrative for value creation.</p>                
+<p className="text-white para-text">Create pull for your website and offerings with engaging content and SEO.</p>
+<p className="text-white para-text">Generate Marketing Qualified Leads (MQLs) with email marketing, SEM and SMM.</p>
+<p className="text-white para-text">Enhance the web experience for your customers with engaging UX/UI developed on a robust tech platform.</p>
 <Container className="text-center w-80">
 <Button className="btn-14">Contact us</Button></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
-<p className="fs-2 text-white">Here’s how we have helped brands win over the dynamic and highly competitive industry:</p>
+<p className="fs-2 text-white">Here are some instances where our expertise and cutting-edge solutions have propelled Tech/IT companies to success:</p>
 </Container>
 <Container className="w-80">
 <Row>
@@ -71,7 +74,7 @@ return (
 </Container>        
 <Container className="w-80 mt-5 d-flex justify-content-center">
 <Link href="/case-studies" className="btn-13">View Case Studies</Link>   
-</Container>         
+</Container>        
 </>
   )
 }

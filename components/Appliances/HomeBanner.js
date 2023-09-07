@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaArrowRight } from "react-icons/fa";
-  
+
 function HeroBanner() {
 
 return (
@@ -11,7 +11,7 @@ return (
 <Container className="bg-white banner w-80" >
 <Row className="d-flex align-items-center">
 <Col lg={7} className="pl-8">        
-<h1 className="fs-21 fw-bold">AUTOMOBILES</h1>
+<h1 className="fs-21 fw-bold">APPLIANCES</h1>
 </Col>              
 <Col lg={5}>
 <Image src="/images/automobiles.svg" width={400} height={400} />
@@ -19,20 +19,18 @@ return (
 </Row>
 </Container>
 <Container className="pt-4 w-80 pb-4 pt-4" >
-<p className="text-white para-text">According to the Ministry of Heavy Industries, Government of India, the automotive industry is likely to see significant transformations at a global level in the next ten years. Among the notable changes will be the shift of growth in demand for automobiles from developed nations to developing nations (mainly BRICS).</p>
-<p className="text-white para-text">India aims to double its auto industry size to Rs. 15 lakh crores by end of the year 2024 (Source: Ministry of Heavy Industries).</p>
+<p className="text-white para-text">The Indian Appliances and Consumer Electronics industry is expected to double to Rs.1.48 lac crore by 2025 according to CEAMA. A recent report by Flipkart and Bain & Co says the number of online shoppers in India is likely to grow to 400 million-450 million by 2027 from 180 million-190 million in 2021 and appliances (along with mobiles and electronics) will have among the highest market shares at 25-30%.</p>
+
 
 </Container>            
 <Container className="iv-bg w-80 banner p-5">
-<p className="fw-bold text-white fs-3">Your focus would be on strengthening your market share in India by growing your sales and dealer network. iVista can support you in this journey and help:</p>                
-<p className="text-white para-text">Your brand to increase online enquiries, bookings and sales conversion ratios.</p>
-<p className="text-white para-text"> To increase your qualified leads and sales conversion ratios for you directly and for your dealers.                    
-                </p>
+                <p className="text-white para-text">The size of customers doing research online and buying offline is rapidly shrinking. More and more buyers are now comfortable buying even large appliances online. Undoubtedly, you would be looking to capitalize on this opportunity.</p>
+                <p className="text-white para-text"> Our carefully tailored digital marketing strategies will help to increase online sales both on your brand e-store as well as on marketplaces.</p>                
 <Container className="text-center w-80">
 <Button className="btn-14">Contact us</Button></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
-<p className="fs-2 text-white">Here’s how we have helped brands win over the dynamic and highly competitive industry:</p>
+<p className="fs-2 text-white">Here’s how we have helped appliance brands to win in the e-commerce channel:</p>
 </Container>
 <Container className="w-80">
 <Row>
@@ -52,7 +50,7 @@ return (
   <div class="card-body">
     <h5 class="card-title">DIGITAL MARKETING ROUNDUP DECEMBER 2021</h5>
     <p class="card-text">In the December version of Digital Marketing Roundup, we provide the latest news and updates from the Digital marketing indus…</p>
-    <a href="#" class="iv-link">Read more <FaArrowRight className="icons"/></a>
+    <a href="#" class="iv-link">Read more <FaArrowRight  className="icons"/></a>
   </div>
 </div>
 </Col>

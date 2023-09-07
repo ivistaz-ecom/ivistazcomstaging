@@ -5,10 +5,6 @@ import Image from 'next/image'
 import { Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import { FaChartLine, FaChartBar, FaUserPlus, FaRocketchat, FaUsers, FaRegHandPointer, FaDollarSign, FaRegCheckCircle, FaUserFriends } from "react-icons/fa";
-
-
-
-
   
 function HomePage() {
    
@@ -29,41 +25,41 @@ return (
 <Row className="d-flex align-items-center justofy-content-end g-3">
 
 <Col className="overflow-hidden blurb-ripple-out-wrap">	                      
-<Link href="" className="btn h-btn blurb-ripple-out" >
+<Link href="/sales" className="btn h-btn blurb-ripple-out" >
 <FaChartLine size={30} /><span>Sales</span></Link>
 </Col>
 <Col className="overflow-hidden blurb-ripple-out-wrap">	                      
-<Link href="" className="btn h-btn blurb-ripple-out" >
+<Link href="/leads" className="btn h-btn blurb-ripple-out" >
 <FaChartBar size={30} /> <span>Leads</span></Link>
 </Col>
 <Col className="overflow-hidden blurb-ripple-out-wrap" >	                      
-<Link href="" className="btn h-btn blurb-ripple-out">
+<Link href="/conversion" className="btn h-btn blurb-ripple-out">
 <FaUserPlus size={30} /> <span>Conversion</span></Link>
 </Col>
 <Col className="overflow-hidden blurb-ripple-out-wrap" >	                      
-                            <Link href="" className="btn h-btn blurb-ripple-out">
+                            <Link href="/booking" className="btn h-btn blurb-ripple-out">
                                 <FaRocketchat size={30} /> <span>Booking</span></Link>
 </Col>
 <Col className="overflow-hidden blurb-ripple-out-wrap" >	                      
-                            <Link href="" className="btn h-btn blurb-ripple-out">
+                            <Link href="/traffic" className="btn h-btn blurb-ripple-out">
                                 <FaUsers size={30} /> <span>Traffic</span></Link>
 </Col>
 </Row>
 <Row className="d-flex align-items-center g-3 pt-3">
 <Col className="overflow-hidden blurb-ripple-out-wrap" >	                      
-                            <Link href="" className="btn h-btn blurb-ripple-out">
+                            <Link href="clicks" className="btn h-btn blurb-ripple-out">
                                 <FaRegHandPointer size={30} /> <span>Clicks</span></Link>
 </Col>
 <Col className="overflow-hidden blurb-ripple-out-wrap" >	                      
-                            <Link href="" className="btn h-btn blurb-ripple-out">
+                            <Link href="revenue" className="btn h-btn blurb-ripple-out">
                                 <FaDollarSign size={30} /> <span>Revenue</span></Link>
 </Col>
 <Col className="overflow-hidden blurb-ripple-out-wrap" >	                      
-                            <Link href="" className="btn h-btn blurb-ripple-out">
+                            <Link href="impressions" className="btn h-btn blurb-ripple-out">
                                 <FaRegCheckCircle size={30} /> <span>Impressions</span></Link>
 </Col>
 <Col className="overflow-hidden blurb-ripple-out-wrap" >	                      
-                            <Link href="" className="btn h-btn blurb-ripple-out">
+                            <Link href="reach" className="btn h-btn blurb-ripple-out">
                                 <FaUserFriends size={30} /> <span>Reach</span></Link>
 </Col>
 </Row>                     

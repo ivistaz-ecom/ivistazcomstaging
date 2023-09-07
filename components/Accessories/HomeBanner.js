@@ -6,12 +6,12 @@ import { FaArrowRight } from "react-icons/fa";
   
 function HeroBanner() {
 
-return (
+    return (
 <>
 <Container className="bg-white banner w-80" >
 <Row className="d-flex align-items-center">
 <Col lg={7} className="pl-8">        
-<h1 className="fs-21 fw-bold">AUTOMOBILES</h1>
+<h1 className="fs-21 fw-bold">FASHION & ACCESSORIES</h1>
 </Col>              
 <Col lg={5}>
 <Image src="/images/automobiles.svg" width={400} height={400} />
@@ -19,20 +19,17 @@ return (
 </Row>
 </Container>
 <Container className="pt-4 w-80 pb-4 pt-4" >
-<p className="text-white para-text">According to the Ministry of Heavy Industries, Government of India, the automotive industry is likely to see significant transformations at a global level in the next ten years. Among the notable changes will be the shift of growth in demand for automobiles from developed nations to developing nations (mainly BRICS).</p>
-<p className="text-white para-text">India aims to double its auto industry size to Rs. 15 lakh crores by end of the year 2024 (Source: Ministry of Heavy Industries).</p>
-
+<p className="text-white para-text">According to an article by the Times of India, the fashion industry is poised to grow into a $106 billion industry by 2026, bringing up the Indian fashion market on maps. We will help you to capitalize on this market opportunity with robust digital solutions that include:</p>
 </Container>            
-<Container className="iv-bg w-80 banner p-5">
-<p className="fw-bold text-white fs-3">Your focus would be on strengthening your market share in India by growing your sales and dealer network. iVista can support you in this journey and help:</p>                
-<p className="text-white para-text">Your brand to increase online enquiries, bookings and sales conversion ratios.</p>
-<p className="text-white para-text"> To increase your qualified leads and sales conversion ratios for you directly and for your dealers.                    
-                </p>
+<Container className="iv-bg w-80 banner p-5">            
+                <p className="text-white para-text">Bridging the gap between online visitors and sales (in-store and online) both on your e-store, as well as on marketplaces and increasing online conversions.</p>
+                <p className="text-white para-text">Creating strong curated online experiences for your customers to strengthen brand loyalty.</p>                
+                <p className="text-white para-text">Ensuring a consistent social media engagement with your customers.</p>
 <Container className="text-center w-80">
 <Button className="btn-14">Contact us</Button></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
-<p className="fs-2 text-white">Here’s how we have helped brands win over the dynamic and highly competitive industry:</p>
+<p className="fs-2 text-white">Here’s how we helped beauty and wellness brands secure a winning edge:</p>
 </Container>
 <Container className="w-80">
 <Row>

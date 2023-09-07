@@ -6,12 +6,12 @@ import { FaArrowRight } from "react-icons/fa";
   
 function HeroBanner() {
 
-return (
+    return (
 <>
 <Container className="bg-white banner w-80" >
 <Row className="d-flex align-items-center">
 <Col lg={7} className="pl-8">        
-<h1 className="fs-21 fw-bold">AUTOMOBILES</h1>
+<h1 className="fs-21 fw-bold">JEWELRY</h1>
 </Col>              
 <Col lg={5}>
 <Image src="/images/automobiles.svg" width={400} height={400} />
@@ -19,20 +19,19 @@ return (
 </Row>
 </Container>
 <Container className="pt-4 w-80 pb-4 pt-4" >
-<p className="text-white para-text">According to the Ministry of Heavy Industries, Government of India, the automotive industry is likely to see significant transformations at a global level in the next ten years. Among the notable changes will be the shift of growth in demand for automobiles from developed nations to developing nations (mainly BRICS).</p>
-<p className="text-white para-text">India aims to double its auto industry size to Rs. 15 lakh crores by end of the year 2024 (Source: Ministry of Heavy Industries).</p>
+<p className="text-white para-text">The Indian jewellery industry is a celebrated sector that exhibits a remarkable ability to adapt to evolving trends in response to the ever-changing needs and preferences of its customers. We will help your business keep up with this dynamic industry.</p>
+
 
 </Container>            
 <Container className="iv-bg w-80 banner p-5">
-<p className="fw-bold text-white fs-3">Your focus would be on strengthening your market share in India by growing your sales and dealer network. iVista can support you in this journey and help:</p>                
-<p className="text-white para-text">Your brand to increase online enquiries, bookings and sales conversion ratios.</p>
-<p className="text-white para-text"> To increase your qualified leads and sales conversion ratios for you directly and for your dealers.                    
-                </p>
+                <p className="text-white para-text">Creating and improving the connection between online visitors and sales, through end-to-end services, in order to boost online conversions and sales both in-store and online.</p>
+                <p className="text-white para-text">Develop compelling and personalized online experiences that will strengthen customers’ loyalty to your brand, thus creating a more curated online experience.</p>                
+                <p className="text-white para-text">Curate keywords that will ensure a lower cost of acquisition.</p>
 <Container className="text-center w-80">
 <Button className="btn-14">Contact us</Button></Container>
 </Container>
 <Container className="mt-5 mb-5 w-80">
-<p className="fs-2 text-white">Here’s how we have helped brands win over the dynamic and highly competitive industry:</p>
+<p className="fs-2 text-white">Here’s how we have helped appliance brands to win in the e-commerce channel:</p>
 </Container>
 <Container className="w-80">
 <Row>
@@ -42,7 +41,7 @@ return (
   <div class="card-body">
     <h5 class="card-title">DIGITAL MARKETING ROUNDUP JANUARY 2022</h5>
     <p class="card-text">In the January version of Digital Marketing Roundup, we provide the latest news and updates from the Digital marketing indust…</p>
-    <a href="#" class="iv-link">Read more <FaArrowRight className="icons"/></a>
+    <a href="#" class="iv-link">Read more <FaArrowRight  className="icons"/></a>
   </div>
 </div>
 </Col>
