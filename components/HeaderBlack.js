@@ -49,57 +49,57 @@ className= { (pathname === '/arts' || pathname === '/arts/services' || pathname 
            <hr class="m-divider"/>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/industries" role="button" data-bs-toggle="dropdown" aria-expanded="false">Industries</a>
+            <Link class="nav-link dropdown-toggle" href="/industries" role="button" data-bs-toggle="dropdown" aria-expanded="false">Industries</Link>
             <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/industries/automobiles">Automobiles</a></li>
+            <li><Link class="dropdown-item" href="/industries/automobiles">Automobiles</Link></li>
             <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="/industries/tech">Tech/IT</a></li>
+            <li><Link class="dropdown-item" href="/industries/tech">Tech/IT</Link></li>
             <li><hr class="dropdown-divider"/></li>
-                      <li><a class="dropdown-item" href="/industries/hospitality"> Hospitality</a></li>
+                      <li><Link class="dropdown-item" href="/industries/hospitality"> Hospitality</Link></li>
                       <li><hr class="dropdown-divider"/></li>
-                      <li><a class="dropdown-item" href="/industries/appliances">Appliances</a></li>
+                      <li><Link class="dropdown-item" href="/industries/appliances">Appliances</Link></li>
                       <li><hr class="dropdown-divider"/></li>
-                      <li><a class="dropdown-item" href="/industries/ngo">Not-for-Profits/NGOs</a></li>
+                      <li><Link class="dropdown-item" href="/industries/ngo">Not-for-Profits/NGOs</Link></li>
                       <li><hr class="dropdown-divider"/></li>
-                      <li><a class="dropdown-item" href="/industries/jewelry">Jewelry</a></li>
+                      <li><Link class="dropdown-item" href="/industries/jewelry">Jewelry</Link></li>
                       <li><hr class="dropdown-divider"/></li>
-                      <li><a class="dropdown-item" href="/industries/beauty">Beauty & Wellness</a></li>
+                      <li><Link class="dropdown-item" href="/industries/beauty">Beauty & Wellness</Link></li>
                       <li><hr class="dropdown-divider"/></li>
-                      <li><a class="dropdown-item" href="/industries/accessories">Fashion & Accessories</a></li>
+                      <li><Link class="dropdown-item" href="/industries/accessories">Fashion & Accessories</Link></li>
             </ul>
             </li>
           <li className="divider-center">
            <hr class="m-divider"/>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/case-studies">Case Studies</a>
+            <Link class="nav-link active" aria-current="page" href="/case-studies">Case Studies</Link>
                   </li>
           <li className="divider-center">
            <hr class="m-divider"/>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/blogs">Blog</a>
+            <Link class="nav-link active" aria-current="page" href="/blogs">Blog</Link>
                   </li>
          <li className="divider-center">
            <hr class="m-divider"/>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+            <Link class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</Link>
             <ul class="dropdown-menu">
-             <li><a class="dropdown-item" href="/mastery/about-us">About</a></li>
+             <li><Link class="dropdown-item" href="/mastery/about-us">About</Link></li>
               <li><hr class="dropdown-divider"/></li>
-              <li><a class="dropdown-item" href="#">Team</a></li>
+              <li><Link class="dropdown-item" href="#">Team</Link></li>
               <li>
                 <hr class="dropdown-divider"/>
               </li>
-              <li><a class="dropdown-item" href="#">Team</a></li>
+              <li><Link class="dropdown-item" href="#">Team</Link></li>
             </ul>
                   </li> 
         <li className="divider-center">
            <hr class="m-divider"/>
           </li>      
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/contact-us">Contact</a>
+            <Link class="nav-link active" aria-current="page" href="/contact-us">Contact</Link>
           </li>         
         </ul>
                 
