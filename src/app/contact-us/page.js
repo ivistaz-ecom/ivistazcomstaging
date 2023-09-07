@@ -49,7 +49,7 @@ function page() {
   <textarea class="form-control"  id="formFile"/>
 </div>
 <div class="mb-3 text-center">                
-<button type="button" class="btn btn-14">Submit</button>
+<button type="button" class="btn btn-15">Submit</button>
 </div>                  
 </form>
 </Col> 
