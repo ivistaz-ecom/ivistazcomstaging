@@ -1,14 +1,19 @@
 "use client"
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Header1 from '../../../components/HeaderBlack'
 import { Col, Container, Row } from 'react-bootstrap'
 import CountUp from 'react-countup';
 import Link from 'next/link';
-import Image from 'next/image'
+import Image from 'next/image';
+import gsap from 'gsap';
+
+
 function page() {
+
   return (
-<>
-<Container fluid className="bg-black">
+    <>
+
+<Container fluid className="bg-black vh-100">
               <Header1 />
               <Container className="w-80">
             <h1 className="text-white fs-70 fw-bold">MASTERY</h1>                   
@@ -16,10 +21,10 @@ function page() {
 
               <Container className="w-80">
                   <Row>
-                      <Col>
+                      <Col className="section">
                           <p className="mastery-text">Years of Experience & Expertise</p>
                           <p className="mastery-text">Clients Served</p>
-                          <h2 className="matery-title">Online Revenue Generated</h2>
+                          <p className="mastery-text">Online Revenue Generated</p>
                           <p className="mastery-text">Marketing Qualified Leads (MQLs) delivered</p>
                           <p className="mastery-text">Websites Designed and Developed</p>
                       </Col>
@@ -32,17 +37,21 @@ function page() {
               </Row>
               </Container> 
               
-              <Container className="w-80">
+        <Container className="w-80">
+        <div id="wrapper">
+	<section id="content">
+	</section>
+</div>
                   <Row>
                       <Col className="overflow">
-                    <img src="/images/mastery.svg" className="master-img"/>
+                      <Image src="/images/mastery.svg" className="master-img" width={600} height={700} />
                       </Col>
                       <Col className="">
                       <p className="mastery-text">“Mastery demands all of a person.” – Albert Einstein</p>
                         <p className="mastery-text">Years of being in the digital marketing landscape and working with over 300+ clients has given us insights on how to master every aspect of this dynamic industry. Want to know how we do it?</p>
                         <Container className="mt-3 pb-5 margin-left d-flex">
                           <Link href="/mastery/about-us" className="btn btn-13 b-width">About Us</Link>
-                          <Link href="/mastery/solutions" className="btn btn-14 mx-5">Solutions</Link>
+                          <Link href="/mastery/solutions" className="btn btn-15 mx-5">Solutions</Link>
                           </Container>              
                           <Container className="mt-5 margin-left">
                           <Link href="/arts" className="text">ART</Link>

@@ -8,6 +8,9 @@ font-family: 'Poppins', sans-serif;
 .poppins{
   font-family: 'Poppins', sans-serif;  
 }
+.offcanvas{
+  z-index:9999 !important;
+}
 .iv-bg{
 background:#ED2225;  
 }
@@ -312,9 +315,15 @@ height: 100vh !important;
   justify-content: center;
 }
 .btn-outline-black{
-  border:1px solid #000000 !important;  
+  border:1px solid #00000000 !important;  
   color:#000000 !important;
+  background:#ffffff00 !important ;
   }
+.btn-outline-black:hover{
+    border:1px solid #000000 !important;  
+    color:#ffffff !important;
+    background:#000000 !important ;
+    } 
 .btn-outline{
 border:1px solid #ffffff00 !important;  
 color:#fff !important;
@@ -1190,4 +1199,7 @@ cursor: pointer;
 .form-label{
   font-family: 'Poppins', sans-serif !important;  
   color:#fff;
+}
+.panel{
+  height: 100vh !important;
 }

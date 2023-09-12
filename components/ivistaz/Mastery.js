@@ -1,11 +1,17 @@
 "use client"
 import Link from 'next/link'
-import React from 'react'
+import React from 'react';
 import { Container } from 'react-bootstrap'
 
 function Mastery() {
+
+
+
   return (
     <Container className="w-80 pt-4 mb-5">
+
+
+
 
           <Container>
               <h1 className="fs-80 fw-bold">Mastery</h1>
