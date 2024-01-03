@@ -21,7 +21,7 @@ function page() {
 <p className="para-text text-white">At the core of everything we do lies the art of transforming exceptional services into extraordinary results. We are dedicated to crafting and curating tailored solutions that exceed your expectations. Whether it’s a comprehensive package or a single service, we’re here to help brands achieve more than what they wish for. And the best part? We have a <Link href="" className="red">performance-focused model</Link>. This means we get paid only when we deliver results.</p>
 </Col>
 <Col lg={12} className="pl-8 pt-5">        
-<Link className="fs-2 fw-bold  r-link" href="/arts/services/design-development">Design & Development</Link>
+<Link className="fs-2 fw-bold  r-link" href="/arts/services/design-development">Development And Design</Link>
 </Col>
 <Col lg={12} className="pl-8 pt-5">        
 <Link className="fs-2 fw-bold r-link" href="/arts/services/digital-marketing">Digital Marketing</Link>

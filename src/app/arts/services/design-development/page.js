@@ -12,7 +12,7 @@ function page() {
 <Container className="bg-black banner w-80" >
 <Row className="d-flex align-items-center">
 <Col lg={7} className="pl-8">        
-<h1 className="fs-21 fw-bold text-white">DESIGN & DEVELOPMENT</h1>
+<h1 className="fs-21 fw-bold text-white">DEVELOPMENT AND DESIGN</h1>
 </Col>              
 <Col lg={5}>
 <Image src="/images/automobiles.svg" width={400} height={400} />
