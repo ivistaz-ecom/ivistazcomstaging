@@ -13,7 +13,7 @@ function page() {
   return (
     <>
 
-<Container fluid className="bg-black vh-100">
+<Container fluid className="bg-black ">
               <Header1 />
               <Container className="w-80">
             <h1 className="text-white fs-70 fw-bold">MASTERY</h1>                   
@@ -22,11 +22,11 @@ function page() {
               <Container className="w-80">
                   <Row>
                       <Col className="section">
-                          <p className="mastery-text">Years of Experience & Expertise</p>
-                          <p className="mastery-text">Clients Served</p>
-                          <p className="mastery-text">Online Revenue Generated</p>
-                          <p className="mastery-text">Marketing Qualified Leads (MQLs) delivered</p>
-                          <p className="mastery-text">Websites Designed and Developed</p>
+                          <p className="mastery-text mastery-h">Years of Experience & Expertise</p>
+                          <p className="mastery-text mastery-h">Clients Served</p>
+                          <p className="mastery-text mastery-h">Online Revenue Generated</p>
+                          <p className="mastery-text mastery-h">Marketing Qualified Leads (MQLs) delivered</p>
+                          <p className="mastery-text mastery-h">Websites Designed and Developed</p>
                       </Col>
                       <Col className="d-flex justify-content-end">
                           <CountUp end={574}

@@ -735,6 +735,12 @@ color:#363636 !important;
   font-family: 'Poppins';
   font-weight: 200; 
 }
+.mastery-h:hover{
+  color: #ED2225;
+  font-size: 30px;
+  font-family: 'Poppins';
+  font-weight: 700; 
+}
 .matery-title{
 color:#ED2225;
 font-family: 'Poppins';

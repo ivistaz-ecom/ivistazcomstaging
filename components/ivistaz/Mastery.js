@@ -9,10 +9,6 @@ function Mastery() {
 
   return (
     <Container className="w-80 pt-4 mb-5">
-
-
-
-
           <Container>
               <h1 className="fs-80 fw-bold">Mastery</h1>
           </Container>
