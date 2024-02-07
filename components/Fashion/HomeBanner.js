@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -19,14 +19,19 @@ function HeroBanner() {
         </Row>
       </Container>
       <Container className="pt-4 w-80 pb-4 pt-4" >
-        <p className="text-white para-text">According to an article by the Times of India, the fashion industry is poised to grow into a $106 billion industry by 2026, bringing up the Indian fashion market on maps. We will help you to capitalize on this market opportunity with robust digital solutions that include:</p>
+        <p className="text-white para-text">
+          According to an article by the Times of India, the fashion industry<Link href="https://timesofindia.indiatimes.com/blogs/voices/indian-apparel-and-fashion-market-in-next-five-years-industry-growth-challenges-and-opportunities/" target='_blank' className='text-decoration-none'> is poised to grow into a $106 billion industry by 2026</Link>, bringing up the Indian fashion market on maps. We will help you to capitalize on this market opportunity with robust digital solutions that include:</p>
+
       </Container>
       <Container className="iv-bg w-80 banner p-5">
-        <p className="text-white para-text">Bridging the gap between online visitors and sales (in-store and online) both on your e-store, as well as on marketplaces and increasing online conversions.</p>
-        <p className="text-white para-text">Creating strong curated online experiences for your customers to strengthen brand loyalty.</p>
-        <p className="text-white para-text">Ensuring a consistent social media engagement with your customers.</p>
-        <Container className="text-center w-80">
-          <Link className="btn-14" href="/contact-us">Contact us</Link></Container>
+        <p className="text-white para-text">Bridging the gap between online visitors and sales (in-store and online) both on your e-store, as well as on marketplaces and<span className='fw-bold'> increasing online conversions</span></p>
+        <p className="text-white para-text">Creating<span className='fw-bold'> strong curated online experiences</span> for your customers to strengthen brand loyalty</p>
+        <p className="text-white para-text">Ensuring a<span className='fw-bold'> consistent social media engagement</span> with your customers.</p>
+        <Container className="text-center">
+          <Col className='d-flex flex-column align-items-center pt-3'>
+            <Link className="btn-14" href="/contact-us">Contact us</Link>
+          </Col>
+        </Container>
       </Container>
       <Container className="mt-5 mb-5 w-80">
         <p className="fs-2 text-white">Here’s how we helped beauty and wellness brands secure a winning edge:</p>
