@@ -28,7 +28,7 @@ function HeroBanner() {
         <p className="text-white para-text">Creating<span className='fw-bold'> strong curated online experiences</span> for your customers to strengthen brand loyalty</p>
         <p className="text-white para-text">Ensuring a<span className='fw-bold'> consistent social media engagement</span> with your customers.</p>
         <Container className="text-center">
-          <Col className='d-flex flex-column align-items-center pt-3'>
+          <Col className='d-flex flex-column align-items-center'>
             <Link className="btn-14" href="/contact-us">Contact us</Link>
           </Col>
         </Container>

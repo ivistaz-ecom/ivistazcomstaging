@@ -41,7 +41,7 @@ function Header1() {
         <Offcanvas.Body>
           <Container className="text-center">
             <Link class="navbar-brand" href="/">
-              <Image src="/images/ivista_logo.svg" width="300" height={100} /></Link>
+              <Image src="/images/ivista_logo.svg" width="300" height={100} alt='' /></Link>
           </Container>
           <ul class="navbar-nav text-center flex-grow-1 pe-3">
             <li class="nav-item">
@@ -56,28 +56,30 @@ function Header1() {
               <hr class="m-divider" />
             </li>
             <NavDropdown title="Industries" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/industries/automobiles">Automobiles</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/industries/tech">Tech/IT</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/industries/hospitality">Hospitality</NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item href="/industries/appliances">Appliances</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/industries/ngo">Not-for-Profits/NGOs</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/industries/jewelry">Jewelry</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/automobiles">Automobiles</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/industries/beauty">Beauty & Wellness</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/industries/accessories">Fashion & Accessories</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/industries/hospitality">Hospitality</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/industries/jewellery">Jewellery</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/industries/ngo">Not-for-Profits/NGOs</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/industries/tech">Tech/IT</NavDropdown.Item>
+              <NavDropdown.Divider />
+
+              {/* <NavDropdown.Item href="#action4">
                 Another action
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action5">
                 Something else here
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
             </NavDropdown>
 
 

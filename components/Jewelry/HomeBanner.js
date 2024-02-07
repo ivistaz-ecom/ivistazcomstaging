@@ -11,7 +11,7 @@ function HeroBanner() {
       <Container className="bg-white banner w-80" >
         <Row className="d-flex align-items-center">
           <Col lg={7} className="pl-8">
-            <h1 className="fs-21 fw-bold">JEWELRY</h1>
+            <h1 className="fs-21 fw-bold text-uppercase">Jewellery</h1>
           </Col>
           <Col lg={5}>
             <Image src="/industries/jewelry.svg" width={400} height={400} alt='' className='img-fluid w-100 h-100' />
@@ -27,8 +27,11 @@ function HeroBanner() {
         <p className="text-white para-text">Creating and improving the connection between online visitors and sales, through end-to-end services, in order to boost online conversions and sales both in-store and online.</p>
         <p className="text-white para-text">Develop compelling and personalized online experiences that will strengthen customers’ loyalty to your brand, thus creating a more curated online experience.</p>
         <p className="text-white para-text">Curate keywords that will ensure a lower cost of acquisition.</p>
-        <Container className="text-center w-80">
-          <Link className="btn-14" href="/contact-us">Contact us</Link></Container>
+        <Container className="text-center">
+          <Col className='d-flex flex-column align-items-center'>
+            <Link className="btn-14" href="/contact-us">Contact us</Link>
+          </Col>
+        </Container>
       </Container>
       <Container className="mt-5 mb-5 w-80">
         <p className="fs-2 text-white">Here’s how we have helped appliance brands to win in the e-commerce channel:</p>

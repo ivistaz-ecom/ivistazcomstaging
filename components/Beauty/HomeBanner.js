@@ -29,8 +29,11 @@ function HeroBanner() {
         <p className="text-white para-text">Develop and implement robust<span className='fw-bold'> search strategies</span> to drive your primary target audience to your brand store and marketplaces.</p>
         <p className="text-white para-text">Create a robust<span className='fw-bold'> performance-based e-commerce model</span> with a monthly/quarterly goal of improving and sustaining your revenues.</p>
         <p className="text-white para-text">Create a robust e-commerce channel that will not only improve revenues on your e-store and marketplaces but<span className='fw-bold'>  also drive customers to your offline stores</span>.</p>
-        <Container className="text-center w-80">
-          <Link className="btn-14" href="/contact-us">Contact us</Link></Container>
+        <Container className="text-center">
+          <Col className='d-flex flex-column align-items-center'>
+            <Link className="btn-14" href="/contact-us">Contact us</Link>
+          </Col>
+        </Container>
       </Container>
       <Container className="mt-5 mb-5 w-80">
         <p className="fs-2 text-white">Here’s how we helped beauty and wellness brands secure a winning edge:</p>
