@@ -26,12 +26,18 @@ const CareerCom = () => {
     const handleFileChange = (event) => {
         const file = event.target.files[0];
         if (file) {
-            if (file.size <= 5 * 1024 * 1024) { // 5MB in bytes
-                setSelectedFile(file);
-                setErrorMessage('');
+            const allowedTypes = ['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+            if (allowedTypes.includes(file.type)) {
+                if (file.size <= 5 * 1024 * 1024) { // 5MB in bytes
+                    setSelectedFile(file);
+                    setErrorMessage('');
+                } else {
+                    setSelectedFile(null);
+                    setErrorMessage('File size exceeds the maximum limit of 5MB.');
+                }
             } else {
                 setSelectedFile(null);
-                setErrorMessage('File size exceeds the maximum limit of 5MB.');
+                setErrorMessage('Only PDF or Word files are allowed.');
             }
         }
     };
@@ -86,13 +92,13 @@ const CareerCom = () => {
                                 )} */}
                             </div>
                             <div class="mb-3">
-                                <label for="formFile" class="form-label w-100">Attach your CV </label>
+                                <label for="formFile" accept=".pdf,.doc,.docx" class="form-label w-100">Attach your CV </label>
                                 <input type="file" onChange={handleFileChange} />
                                 {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
                                 {selectedFile && (
                                     <div>
-                                        <p>Selected file: {selectedFile.name}</p>
-                                        <p>Size: {(selectedFile.size / (1024 * 1024)).toFixed(2)} MB</p>
+                                        {/* <p className="text-white para-text">Selected file: {selectedFile.name}</p> */}
+                                        <p className="text-white para-text">Size: {(selectedFile.size / (1024 * 1024)).toFixed(2)} MB</p>
                                     </div>
                                 )}
                             </div>

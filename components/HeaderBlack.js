@@ -103,8 +103,14 @@ function Header1() {
               <NavDropdown.Item href="/team">Team</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/industries/tech">About</NavDropdown.Item>
-
             </NavDropdown>
+            <li className="divider-center">
+              <hr class="m-divider" />
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link active" aria-current="page" href="/careers">Careers</Link>
+            </li>
+
             <li className="divider-center">
               <hr class="m-divider" />
             </li>
