@@ -24,9 +24,21 @@ function HeroBanner() {
 
       </Container>
       <Container className="iv-bg w-80 banner p-5">
-        <p className="text-white para-text">Bridging the gap between online visitors and sales (in-store and online) both on your e-store, as well as on marketplaces and<span className='fw-bold'> increasing online conversions</span></p>
-        <p className="text-white para-text">Creating<span className='fw-bold'> strong curated online experiences</span> for your customers to strengthen brand loyalty</p>
-        <p className="text-white para-text">Ensuring a<span className='fw-bold'> consistent social media engagement</span> with your customers.</p>
+        <ul>
+          <li className='industry-bullet'>
+            <p className="text-white para-text">Bridging the gap between online visitors and sales (in-store and online) both on your e-store, as well as on marketplaces and<span className='fw-bold'> increasing online conversions</span></p>
+          </li>
+          <li className='industry-bullet'>
+            <p className="text-white para-text">
+              Creating<span className='fw-bold'> strong curated online experiences</span> for your customers to strengthen brand loyalty
+            </p>
+          </li>
+          <li className='industry-bullet'>
+            <p className="text-white para-text">
+              Ensuring a<span className='fw-bold'> consistent social media engagement</span> with your customers.
+            </p>
+          </li>
+        </ul>
         <Container className="text-center">
           <Col className='d-flex flex-column align-items-center'>
             <Link className="btn-14" href="/contact-us">Contact us</Link>

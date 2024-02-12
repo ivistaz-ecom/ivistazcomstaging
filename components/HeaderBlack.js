@@ -62,7 +62,7 @@ function Header1() {
               <NavDropdown.Divider />
               <NavDropdown.Item href="/industries/beauty">Beauty & Wellness</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/industries/accessories">Fashion & Accessories</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/fashion">Fashion & Accessories</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/industries/hospitality">Hospitality</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -100,7 +100,7 @@ function Header1() {
             </li>
 
             <NavDropdown title="About Us" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/industries/automobiles">Team</NavDropdown.Item>
+              <NavDropdown.Item href="/team">Team</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/industries/tech">About</NavDropdown.Item>
 

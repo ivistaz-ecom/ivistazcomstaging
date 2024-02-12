@@ -24,10 +24,20 @@ function HeroBanner() {
 
       </Container>
       <Container className="iv-bg w-80 banner p-5">
-        <p className="text-white para-text">Assess the current or redefine<span className='fw-bold'> positioning, messaging and narrative</span> for value creation.</p>
-        <p className="text-white para-text">Create pull for your website and offerings with<span className='fw-bold'> engaging content and SEO</span>.</p>
-        <p className="text-white para-text">Generate<span className='fw-bold'> Marketing Qualified Leads</span> (MQLs) with email marketing, SEM and SMM.</p>
-        <p className="text-white para-text"><span className='fw-bold'>Enhance the web experience</span> for your customers with engaging UX/UI developed on a robust tech platform.</p>
+        <ul>
+          <li className='industry-bullet'>
+            <p className="text-white para-text">Assess the current or redefine<span className='fw-bold'> positioning, messaging and narrative</span> for value creation.</p>
+          </li>
+          <li className='industry-bullet'>
+            <p className="text-white para-text">Create pull for your website and offerings with<span className='fw-bold'> engaging content and SEO</span>.</p>
+          </li>
+          <li className='industry-bullet'>
+            <p className="text-white para-text">Generate<span className='fw-bold'> Marketing Qualified Leads</span> (MQLs) with email marketing, SEM and SMM.</p>
+          </li>
+          <li className='industry-bullet'>
+            <p className="text-white para-text"><span className='fw-bold'>Enhance the web experience</span> for your customers with engaging UX/UI developed on a robust tech platform.</p>
+          </li>
+        </ul>
         <Container className="">
           <Col className='d-flex flex-column align-items-center mt-3'>
             <Link className="btn-14" href="/contact-us">Contact us</Link>

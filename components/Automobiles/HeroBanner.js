@@ -27,11 +27,17 @@ function HeroBanner() {
         <p className="fw-bold text-white fs-3">
           Your focus would be on strengthening your market share in India by growing your sales and dealer network. iVistaz can support you in this journey and help
         </p>
-        <p className="text-white para-text">
-          Your brand to<span className='fw-bold'> increase online enquiries, bookings and sales conversion ratios</span>.
-        </p>
-        <p className="text-white para-text"> To increase your<span className='fw-bold'>  qualified leads and sales</span> conversion ratios for you directly and for your dealers.
-        </p>
+        <ul>
+          <li className='industry-bullet'>
+            <p className="text-white para-text">
+              Your brand to<span className='fw-bold'> increase online enquiries, bookings and sales conversion ratios</span>.
+            </p>
+          </li>
+          <li className='industry-bullet'>
+            <p className="text-white para-text"> To increase your<span className='fw-bold'>  qualified leads and sales</span> conversion ratios for you directly and for your dealers.
+            </p>
+          </li>
+        </ul>
         <Container className="">
           <Col className='d-flex flex-column align-items-center'>
             <Link className="btn-14" href="/contact-us">Contact us</Link>

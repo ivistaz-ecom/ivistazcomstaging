@@ -1214,3 +1214,8 @@ cursor: pointer;
 .panel{
   height: 100vh !important;
 }
+
+.industry-bullet::marker {
+  color: white;
+  font-size: 25px;
+}

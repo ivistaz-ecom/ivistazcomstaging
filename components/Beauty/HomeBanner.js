@@ -26,9 +26,17 @@ function HeroBanner() {
       </Container>
       <Container className="iv-bg w-80 banner p-5">
         <p className="fw-bold text-white fs-3">To help your brand to stand out in a highly crowded market, we will:</p>
-        <p className="text-white para-text">Develop and implement robust<span className='fw-bold'> search strategies</span> to drive your primary target audience to your brand store and marketplaces.</p>
-        <p className="text-white para-text">Create a robust<span className='fw-bold'> performance-based e-commerce model</span> with a monthly/quarterly goal of improving and sustaining your revenues.</p>
-        <p className="text-white para-text">Create a robust e-commerce channel that will not only improve revenues on your e-store and marketplaces but<span className='fw-bold'>  also drive customers to your offline stores</span>.</p>
+        <ul>
+          <li className='industry-bullet'>
+            <p className="text-white para-text">Develop and implement robust<span className='fw-bold'> search strategies</span> to drive your primary target audience to your brand store and marketplaces.</p>
+          </li>
+          <li className='industry-bullet'>
+            <p className="text-white para-text">Create a robust<span className='fw-bold'> performance-based e-commerce model</span> with a monthly/quarterly goal of improving and sustaining your revenues.</p>
+          </li>
+          <li className='industry-bullet'>
+            <p className="text-white para-text">Create a robust e-commerce channel that will not only improve revenues on your e-store and marketplaces but<span className='fw-bold'>  also drive customers to your offline stores</span>.</p>
+          </li>
+        </ul>
         <Container className="text-center">
           <Col className='d-flex flex-column align-items-center'>
             <Link className="btn-14" href="/contact-us">Contact us</Link>
