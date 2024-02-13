@@ -1,0 +1,24 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy html pages
+        uses: appleboy/ssh-action@master
+
+        with:
+          host: ${{ secrets.SSH_HOST }} # Your server's IP address
+          username: ${{ secrets.SSH_USERNAME }} # Your server's username
+          key: ${{ secrets.SSH_KEY }} # Your server's SSH private key
+
+          script: |
+            cd /var/www/html/ivistazcomstaging
+            git pull origin main
+            npm install
+            npm run build
+            pm2 restart ivistaz
