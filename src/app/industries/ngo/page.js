@@ -8,9 +8,9 @@ import Header from '../../../../components/HeaderBlack'
 function page() {
   return (
     <Container fluid className="bg-black pb-5">
-      <Header/>
-<HeroBanner/>
-</Container>
+      <Header />
+      <HeroBanner />
+    </Container>
   )
 }
 

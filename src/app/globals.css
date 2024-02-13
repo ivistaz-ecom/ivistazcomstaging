@@ -30,6 +30,11 @@ color:#ffffff83;
 padding-top:12px;
 padding-bottom:12px;  
 }
+
+.cursor-pointer {
+      cursor: pointer !important;
+}
+
 .red-outline{
   color:#ED2225 !important;
   text-decoration: none !important;
@@ -1208,4 +1213,9 @@ cursor: pointer;
 }
 .panel{
   height: 100vh !important;
+}
+
+.industry-bullet::marker {
+  color: white;
+  font-size: 25px;
 }

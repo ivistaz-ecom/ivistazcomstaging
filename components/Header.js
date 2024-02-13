@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
 <Container fluid className="iv-bg center h25vh">
-        <Image src="/images/logo.png" width={200} height={50} />
+<Image src="/images/logo.png" width={200} height={50} />
 </Container>
     </>
   )
